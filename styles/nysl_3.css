@@ -1,0 +1,501 @@
+header {
+    background-color: greenyellow;
+}
+
+.north {
+    font-size: 35px;
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    color: black;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.logo {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    left: 220px;
+    top: 27px;
+}
+
+.headline {
+    background: darkgreen;
+    height: 80px;
+    background-attachment: fixed;
+    display: block;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    position: relative;
+
+}
+
+.content {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 700px;
+
+}
+
+
+.home {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 490px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 3px solid black;
+    height: 90px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 260px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    height: 95px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    width: 50px;
+    text-align: left;
+}
+
+.about {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 380px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 3px solid black;
+    height: 90px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    text-align;
+}
+
+.mainindex {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 500px;
+    background: white;
+    color: black;
+    padding: 10px;
+    border: 3px solid black;
+    height: 90px;
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mainabout {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 380px;
+    background: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    height: 90px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.maincontact {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 260px;
+    background: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    height: 90px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    width: 50px;
+}
+
+
+body {
+
+    background-image:
+        url("assets2/design5_image1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1800px;
+}
+
+a:hover {
+    background-color: white box-shadow: 5px 5px black;
+}
+
+.abc {
+    list-style-type: lower-latin;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.llista {
+    display: inline-block;
+    position: relative;
+    left: 290px;
+
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 700px;
+
+}
+
+.taula {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 800px;
+}
+
+.negreta {
+    font-weight: bold
+}
+
+.game {
+    font-weight: bold
+}
+
+th {
+    font-weight: bold;
+    text-decoration: underline
+}
+
+table {
+    width: 700px;
+
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}
+
+.sep {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.oct {
+    text-align: center;
+
+}
+
+.october {
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.location {
+    margin-top: 30px;
+}
+
+caption {
+    text-align: left;
+}
+
+.teamso {
+    margin-left: 20px;
+    margin-right: 0;
+    display: inline;
+}
+
+.loc {
+    position: relative;
+    right: 20px;
+}
+
+.loca {
+    position: relative;
+    right: 20px;
+}
+
+.times {
+    position: relative;
+    right: 15px;
+}
+
+.location {
+    position: relative;
+    left: 40px;
+}
+
+
+.adr {
+    position: relative;
+    left: 50px;
+}
+
+.correu {
+    display: inline;
+    margin-left: 200px;
+}
+
+.phone {
+    display: inline;
+}
+
+.additional {
+    position: relative;
+    left: 40px;
+    margin-top: 40px;
+    width: 700px;
+}
+
+.first {
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+}
+
+
+ol {
+    margin: 0;
+}
+
+.ordered {
+    margin-bottom: 10px;
+}
+
+.top {
+    text-align: center;
+}
+
+.anotation {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.rules {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 46px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 3px solid black;
+    height: 90px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.game_info {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 148px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 3px solid black;
+    height: 90px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.maingame_info {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 148px;
+    background: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    height: 90px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mainrules {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 46px;
+    background: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    height: 90px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+.fifi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1000px;
+}
+
+.starting {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:550px;
+}
+.starting2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;   
+}
+
+.starting3 {
+     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px; 
+}
+
+.starting5 {
+     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px; 
+}
+
+
+.partone {
+    height: 250px;
+    width: 590px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.adrs {
+    width:449px;
+}
+.prtgrd {
+    width:430px;
+}
+.posicio1 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.jersei1 {
+    display:flex;
+    flex-direction: column;
+}
+.jersei2 {
+    display:flex;
+    flex-direction: column;
+}
+
+.samarreta {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.pantalons {
+      display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:300px;
+}
+
+.positions1 {
+    width:300px;
+}
+
+.permission {
+    display:flex;
+    justify-content: flex-start;
+    width: 620px;
+}
+
+.xapa {
+    width: 620px;
+}
+
+.foot {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:620px;
+}
+
+.spacee {
+    height: 400px;
+}

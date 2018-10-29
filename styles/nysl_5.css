@@ -1,0 +1,533 @@
+/* HEADER design */ /* */
+header {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.north {
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+h1 {
+    display: flex;
+    width: auto;
+}
+
+.logo {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headline {
+    background:
+        height: 80px;
+    background-attachment: fixed;
+    display: block;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    position: relative;
+
+}
+
+/* body design and content design for the home, contact and about sites */
+
+.content {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 700px;
+    background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;    
+}
+
+
+
+
+
+body {
+
+    background-image:
+        url("assets/design5_image1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1800px;
+}
+
+
+/* Navigation bar */
+
+.navegador {
+    display: flex;
+    flex-flow: row;
+    box-sizing: border-box;
+    align-items: center;
+    height: 100%;
+    background: black;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+}
+
+.box {
+    display: flex;
+    flex-flow: row;
+    flex-grow: 1;
+    transition: .5s;
+    color: #fff;
+    background: red;
+    height: 100%;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box:nth-child(1) {
+    background-image: url("assets/header_image1.jpg");
+    background-position: 55%
+}
+
+.box:nth-child(2) {
+    background-image: url("assets/header_image2.jpeg");
+    background-position: 57% 80%
+}
+
+.box:nth-child(3) {
+    background-image: url("assets/header_image3.jpg");
+    background-position: 30% 80%
+}
+
+.box:nth-child(4) {
+    background-image: url("assets/header_image4.jpg");
+    background-position: 70% 0%
+}
+
+.box:nth-child(5) {
+    background-image: url("assets/header_image5.jpg");
+    background-position: 20%
+}
+
+.box:nth-child(6) {
+    background-image: url("assets/header_image6.jpg");
+    background-position: 60%
+}
+
+
+.box:hover {
+    width: 250px;
+
+}
+
+.buttons {
+    background: rgba(255, 255, 255, .8);
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    transition: 1s;
+
+}
+
+.buttons:hover {
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* LISTS */
+
+/* Ordered lists by letters */
+
+.abc {
+    list-style-type: lower-latin;
+}
+
+/* Unordered lists with square signs */
+
+.square {
+    list-style-type: square;
+}
+
+/* General list design */
+
+.llista {
+    display: inline-block;
+    position: relative;
+    left: 290px;
+
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 700px;
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+    
+
+}
+
+/* Game Information table design */
+.taula {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 800px;
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+.negreta {
+    font-weight: bold
+}
+
+.game {
+    font-weight: bold
+}
+
+th {
+    font-weight: bold;
+    text-decoration: underline
+}
+
+table {
+    width: 700px;
+
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}
+
+.sep {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.oct {
+    text-align: center;
+
+}
+
+.october {
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.location {
+    margin-top: 30px;
+}
+
+caption {
+    text-align: left;
+}
+
+.teamso {
+    margin-left: 20px;
+    margin-right: 0;
+    display: inline;
+}
+
+.loc {
+    position: relative;
+    right: 20px;
+}
+
+.loca {
+    position: relative;
+    right: 20px;
+}
+
+.times {
+    position: relative;
+    right: 15px;
+}
+
+.location {
+    position: relative;
+    left: 40px;
+}
+
+
+.adr {
+    position: relative;
+    left: 50px;
+}
+
+.correu {
+    display: inline;
+    margin-left: 200px;
+}
+
+.phone {
+    display: inline;
+}
+
+.additional {
+    position: relative;
+    left: 40px;
+    margin-top: 40px;
+    width: 700px;
+    margin-bottom:500px;
+}
+
+.first {
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+}
+
+
+ol {
+    margin: 0;
+}
+
+.ordered {
+    margin-bottom: 10px;
+}
+
+.top {
+    text-align: center;
+}
+
+.anotation {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Form Design */
+
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+.fifi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 900px;
+}
+
+.f1 {
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+
+
+.starting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 560px;
+}
+
+.starting2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.starting3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.starting5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+
+.partone {
+    height: 250px;
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.adrs {
+    width: 449px;
+}
+
+.prtgrd {
+    width: 430px;
+}
+
+.f2 {
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+.f2 {
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+.f3 {
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+
+.posicio1 {
+    display: flex;
+    justify-content: space-around;
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+
+}
+
+.f4 {
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+.f5 {
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+.jersei1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.jersei2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.samarreta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.pantalons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.positions1 {
+    width: 300px;
+}
+
+.permission {
+    display: flex;
+    justify-content: flex-start;
+    width: 620px;
+}
+
+.xapa {
+    width: 620px;
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+    margin-bottom: 20px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:620px;
+    margin-bottom: 20px;
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+.enter {
+    display:flex;
+    flex-grow: 2;
+}
+
+.submit {
+    margin-bottom: 500px;
+        background: rgb(25,25,112,0.8);
+    padding:10px;
+  border:1px solid white;
+    border-radius: 10px;  
+}
+
+
+.nameno {
+    flex-grow:3;
+}
