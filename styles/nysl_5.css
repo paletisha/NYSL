@@ -1,4 +1,5 @@
-/* HEADER design */ /* */
+/* HEADER design */
+/* */
 header {
     background-color: greenyellow;
     display: flex;
@@ -64,10 +65,10 @@ h1 {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     width: 700px;
-    background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;    
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 
@@ -192,11 +193,11 @@ body {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     width: 700px;
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
-    
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+
 
 }
 
@@ -209,10 +210,10 @@ body {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     width: 800px;
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .negreta {
@@ -310,7 +311,7 @@ caption {
     left: 40px;
     margin-top: 40px;
     width: 700px;
-    margin-bottom:500px;
+    margin-bottom: 500px;
 }
 
 .first {
@@ -359,10 +360,10 @@ form {
 }
 
 .f1 {
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 
@@ -414,49 +415,49 @@ form {
 }
 
 .f2 {
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .f2 {
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .f3 {
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 
 .posicio1 {
     display: flex;
     justify-content: space-around;
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 
 }
 
 .f4 {
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .f5 {
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .jersei1 {
@@ -495,10 +496,10 @@ form {
 
 .xapa {
     width: 620px;
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
@@ -506,28 +507,28 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:620px;
+    width: 620px;
     margin-bottom: 20px;
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .enter {
-    display:flex;
+    display: flex;
     flex-grow: 2;
 }
 
 .submit {
     margin-bottom: 500px;
-        background: rgb(25,25,112,0.8);
-    padding:10px;
-  border:1px solid white;
-    border-radius: 10px;  
+    background: rgb(25, 25, 112, 0.8);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 
 .nameno {
-    flex-grow:3;
+    flex-grow: 3;
 }
