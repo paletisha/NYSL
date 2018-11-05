@@ -1,5 +1,7 @@
 /* HEADER design */
 /* */
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+    
 header {
     background-color: greenyellow;
     display: flex;
@@ -109,7 +111,7 @@ body {
     color: #fff;
     background: red;
     height: 100%;
-    width: 110px;
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -147,27 +149,38 @@ body {
 
 
 .box:hover {
-    width: 250px;
+    flex-grow:2;
 
 }
 
+
 .buttons {
+    display:flex;
     background: rgba(255, 255, 255, .8);
     color: black;
-    padding: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 1em;
     transition: 1s;
-
+    height:100%;
+    align-items: center;
+    font-family: dosis;
+   
 }
 
 .buttons:hover {
-    background: rgba(255, 255, 255, 1);
-    color: black;
-    padding: 10px;
-    font-size: 1em;
+    
+    color: white;
+    padding: 90px;
+    font-size: 1.2em;
+    background-color: transparent;
+    font-weight: bold;
+   
 }
+
+
 
 /* LISTS */
 
